@@ -19,4 +19,4 @@ gallery.classList.add('.gallery');
 for(const image of images) {
   gallery.insertAdjacentHTML('afterbegin', `<li><img src=${image.url} alt='${image.alt}'></li>`);
   
- console.log(gallery)};
+ };
